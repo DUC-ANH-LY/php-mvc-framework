@@ -10,8 +10,12 @@ class Home
 
         $articles = $model->getData();
 
-        //require 'view.php';   // TODO changed
         require 'views/home_index.php';
     }
 
+    // TODO NEW
+    public function show()
+    {
+        require 'views/home_show.php';
+    }
 }

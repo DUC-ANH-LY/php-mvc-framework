@@ -4,4 +4,5 @@ require "src/controllers/products.php";
 
 $controller = new Products;
 
-$controller->index();
+$controller->index(); 
+// show() to view change
