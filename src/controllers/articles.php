@@ -1,7 +1,5 @@
 <?php
 
-// TODO NEW
-
 class Articles
 {
     public function index()
