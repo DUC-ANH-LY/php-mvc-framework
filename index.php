@@ -15,5 +15,5 @@ if ($action === "index") {
 }
 
 
-// route?action="index"
-// route?action="show"
+// route/index.php?action=index
+// route/index.php?action=show
