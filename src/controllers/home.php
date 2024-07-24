@@ -13,7 +13,6 @@ class Home
         require 'views/home_index.php';
     }
 
-    // TODO NEW
     public function show()
     {
         require 'views/home_show.php';

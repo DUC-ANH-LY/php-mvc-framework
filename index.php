@@ -4,5 +4,16 @@ require "src/controllers/products.php";
 
 $controller = new Products;
 
-$controller->index(); 
-// show() to view change
+$action = $_GET["action"];
+
+if ($action === "index") {
+
+    $controller->index();
+} elseif ($action === "show") {
+
+    $controller->show();
+}
+
+
+// route?action="index"
+// route?action="show"
